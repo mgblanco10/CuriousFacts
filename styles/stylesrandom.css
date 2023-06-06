@@ -38,16 +38,25 @@
     color: var(--redTextButton);
     font-weight: bold;
     font-family: 'roboto';
+    overflow: scroll;
+}
+.remove{
+    width: 23px;
+    height: 23px;
+    padding-right: 15px;
 }
 
 .press{
     margin: 20px;
-
-
 }
 
 li{
     padding: 10px 0 10px 0;
+}
+
+.favorite-star{
+    width: 30px;
+    height: 30px;
 }
 
 
