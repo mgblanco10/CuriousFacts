@@ -1,0 +1,55 @@
+
+.class-title{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'roboto';
+
+}
+
+.favorite-message{
+    color: var(--redTextButton);
+    width: 270px;
+    height: 166px;
+    border-radius: 15px;
+    background-color: var(--grey);
+    overflow: scroll;
+    padding: 20px;
+    list-style: none;
+    font-family: 'roboto';
+
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.message-random{
+    width: 270px;
+    height: 63px;
+    border-radius: 15px;
+    background-color: var(--grey);
+    padding: 20px;
+    color: var(--redTextButton);
+    font-weight: bold;
+    font-family: 'roboto';
+}
+
+.press{
+    margin: 20px;
+
+
+}
+
+li{
+    padding: 10px 0 10px 0;
+}
+
+
+
+
