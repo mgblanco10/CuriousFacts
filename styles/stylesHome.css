@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 :root{
-    --grey: #D9D9D9;  
-    --red: hsl(353, 91%, 50%, 0.65);
-    --black: #000000;
-    --white: #fff;
-    --redTextButton: #F20B27;
-
+    --grey: rgb(217, 217, 217);  
+    --red: rgba(244, 11, 39, 0.65);
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+    --redTextButton: rgb(242, 11, 39);
 }
 *{
     margin: 0;
     padding: 0;
 }
-
 body{
     background-color: var(--red);
     width: 390px;
@@ -24,7 +22,7 @@ header{
 .img-home{
     width: 253px;
     height: 220px;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 20px;
 }
 main{
@@ -38,10 +36,7 @@ main{
     font-family: roboto;
     font-size: 20px;
     font-weight: bold;
-    width: 324px;
-    height: 318px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 20px;
     text-align: center;
 }
 .init-btn{
@@ -52,21 +47,22 @@ main{
     font-weight: bold;
     color: var(--redTextButton);
     border: none;
+    margin-top: 50px;
     box-shadow: 0px 11px 4px rgba(0, 0, 0, 0.25);
 }
 footer{
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .prhase{
     color: var(--white);
     text-align: center;
-    font-family: 15px;
+    font-size: 15px;
     font-family: roboto;
     font-weight: bold;
+    width: 180px;
+    margin-top: 40px;
 }
 
 
