@@ -1,4 +1,16 @@
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+.img-anchor{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
 
+}
 .class-title{
     color: var(--white);
     font-size: 20px;
@@ -9,7 +21,6 @@
     font-family: 'roboto';
 
 }
-
 .favorite-message{
     color: var(--redTextButton);
     width: 270px;
@@ -22,7 +33,6 @@
     font-family: 'roboto';
 
 }
-
 .section{
     display: flex;
     flex-direction: column;
@@ -39,11 +49,13 @@
     font-weight: bold;
     font-family: 'roboto';
     overflow: scroll;
+    display: flex;
+    flex-direction: row-reverse;
 }
 .remove{
     width: 23px;
     height: 23px;
-    padding-right: 15px;
+    padding-right: 10px;
 }
 
 .press{
@@ -51,12 +63,13 @@
 }
 
 li{
-    padding: 10px 0 10px 0;
+    display: flex;
+    padding-bottom: 10px;
 }
-
 .favorite-star{
     width: 30px;
     height: 30px;
+    padding-right: 10px;
 }
 
 

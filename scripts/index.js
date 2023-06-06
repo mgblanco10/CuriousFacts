@@ -10,7 +10,7 @@ function getNewMessage() {
 
       let starImage = document.createElement('img');
       starImage.src = '../img/animateStar.png';
-      starImage.alt = 'Estrella';
+      starImage.alt = 'Estrella que al presionar agrega a la lista de favoritos';
       starImage.className = 'favorite-star';
       starImage.style.verticalAlign = 'middle';
 
@@ -20,7 +20,7 @@ function getNewMessage() {
       }
 
       currentMessage.appendChild(starImage);
-
+      
       starImage.addEventListener('click', addFavoriteMessage);
     })
     .catch(error => {
@@ -44,6 +44,10 @@ function addFavoriteMessage(event) {
     li.insertAdjacentText('beforeend', message);
 
     favoriteMessageListElement.appendChild(li);
+
+    image.addEventListener('click', function() {
+      li.remove();
+    });
   }
 }
 

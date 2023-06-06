@@ -24,7 +24,8 @@ header{
 .img-home{
     width: 253px;
     height: 220px;
-    margin-top: 70px;
+    margin-top: 60px;
+    margin-left: 20px;
 }
 main{
     display: flex;
