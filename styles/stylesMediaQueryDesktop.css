@@ -18,7 +18,7 @@
         width: 860px;
         height: 260px;
         margin-left: 90px;
-        margin-top: 30px;
+        margin-top: 20px;
         filter: drop-shadow(1.25em 0em 6.25em var(--white));
     }
     
@@ -59,6 +59,21 @@
         margin: 20px -50px 0 0;   
     }
 
-    
+    .favorite-message{
+
+        width: 1066px;
+        height: 150px;
+        margin-bottom: 18px;
+    }
+
+    .message-random{
+        width: 1066px;
+        height: 80px; 
+    }
+
+    .class-title{
+        margin-top: 0;
+    }
+
    }
 
