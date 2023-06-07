@@ -1,83 +1,60 @@
-
-@media screen and (min-width: 744px) {
-    
+@media screen and (min-width: 46.5rem) {
     body{
-        width: 744px;
-        
+        width: 46.5rem;
     }
-    
     .init-btn:hover {
       transform: rotate(360deg);
-
     }
-
     .img-anchor{
-        width: 83px;
-        height: 79px;
-        margin: 10px;
-        
+        width: 5.188rem;
+        height: 4.938rem;
+        margin: 0.625rem;    
     }
-
     .img-home{
-        width: 378px;
-        height: 350px;
-        margin-top: 40px;
-        margin-bottom: 10px;
-      
+        width: 23.625rem;
+        height: 21.875rem;
+        margin-top: 2.5rem;
+        margin-bottom: 0.625rem;    
     }
-
     .description{
-        font-size: 24px;
-        width: 542px;
-        height: 329px;
-
+        font-size: 1.5rem;
+        width: 33.875rem;
+        height: 20.563rem;
     }
-
     .class-title{
-        font-size: 24px;
+        font-size: 1.5rem;
     }
-
     .random{
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
-
     footer{
         width: 100%;
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
     .prhase{
-        width: 250px;
-        height: 43px;
-        font-size: 16px;
+        width: 15.625rem;
+        height: 2.688rem;
+        font-size: 1rem;
         font-weight: 400;
     }
-
     .favorite-message{
-        width: 552px;
-        height: 183px;
-        margin-left: 20px;
+        width: 34.5rem;
+        height: 11.438rem;
+        margin-left: 1.25rem;
     }
-
     .message-random{
-        width: 552px;
-        height: 98px;
-        margin-left: 20px;
-       
-
-
+        width: 34.5rem;
+        height: 6.125rem;
+        margin-left: 1.25rem;
     }
-
     .curious-facts{
         display: flex;
-        justify-content: start;
-       
+        justify-content: start;   
     }
-
     b{
         font-weight: bolder;
-        font-size: 26px;
+        font-size: 1.625rem;
     }
-
   }
 
   

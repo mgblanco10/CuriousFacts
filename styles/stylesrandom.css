@@ -4,7 +4,6 @@
     position: absolute;
     top: 0.938rem;
     right: 0.938rem;
-
 }
 .class-title{
     color: var(--white);
@@ -50,11 +49,9 @@
     height: 1.438rem;
     padding-right: 0.625rem;
 }
-
 .press{
     margin: 1.875rem;
 }
-
 li{
     display: flex;
     padding-bottom: 0.625rem;

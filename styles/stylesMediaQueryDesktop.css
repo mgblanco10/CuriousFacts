@@ -1,93 +1,73 @@
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 62rem) {
     
     body{
-        width: 1200px;
-        height:800px ;
+        width: 75rem;
+        height:50rem;
     }
-    
     .img-home{
         display: none;
     }
-
     header{
-        width: 1200px;
+        width: 75rem;
     }
-    
     .img-desktop{
         display: flex;
-        width: 860px;
-        height: 260px;
-        margin-left: 90px;
-        margin-top: 20px;
+        width: 53.75rem;
+        height: 16.25rem;
+        margin-left: 5.625rem;
+        margin-top: 1.25rem;
         filter: drop-shadow(1.25em 0em 6.25em var(--white));
     }
-    
    main{
         display: flex;
         justify-content: space-around;
-        flex-direction: row;
-        
-        
+        flex-direction: row;   
     }
-
     .description{
-       width: 1200px; 
-       font-size: 30px;
-       margin-left: 45px;
-       
+       width: 75rem; 
+       font-size: 1.875rem;
+       margin-left: 2.813rem; 
     }
-
     b{
-        font-size: 34px;
+        font-size: 2.125rem;
     }
-
     .init-btn{
         margin: 0;
     }
-
     .favorite-message{
-
-        width: 540px;
-        height: 300px;
-       
+        width: 33.75rem;
+        height: 18.75rem;
     }
-
     .message-random{
-        width: 540px;
-        height: 300px;
-        margin-bottom: 70px;
+        width: 33.75rem;
+        height: 18.75rem;
+        margin-bottom: 4.375rem;
     }
-
     .favorites{
-        margin-bottom: 74px;
-        margin-left: 60px;
+        margin-bottom: 4.375rem;
+        margin-left: 3.75rem;
     }
-
-        .section{
-            margin-left: 20px;
-        }
+    .section{
+        margin-left: 1.25rem;
+    }
     .class-title{
         margin-top: 0;
     }
-
     .init-btn{
         position: absolute;
-        top: 680px;
-        right: 550px;
+        top: 42.5rem;
+        right: 34.375rem;
     }
-
     footer{
         margin: 0;
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
-        
+        justify-content: flex-end;     
     }
-
     .prhase{
-        font-size: 16px;
-        width: 320px;
-        margin: 90px -50px 0 0;   
+        font-size: 1rem;
+        width: 20rem;
+        margin: 5.625rem -3.125rem 0 0;   
     }
 
    }
