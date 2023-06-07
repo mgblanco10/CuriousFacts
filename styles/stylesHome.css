@@ -24,7 +24,7 @@ header{
     height: 220px;
     margin-top: 30px;
     margin-left: 20px;
-    /* filter: drop-shadow(1.25em 0em 6.25em var(--white)); */
+    filter: drop-shadow(1.25em 0em 6.25em var(--white)); 
 }
 main{
     display: flex;
@@ -66,10 +66,5 @@ footer{
     width: 180px;
     margin-top: 40px;
 }
-/* version tablet */
-@media screen and (min-width: 744px) {
-    .init-btn:hover {
-      transform: rotate(360deg);
-    }
-  }
+
 

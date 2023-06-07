@@ -1,0 +1,71 @@
+
+@media screen and (min-width: 744px) {
+    
+    body{
+        width: 744px;
+        /* height: 1024px; */
+    }
+    
+    .init-btn:hover {
+      transform: rotate(360deg);
+
+    }
+
+    .img-anchor{
+        width: 83px;
+        height: 79px;
+        
+    }
+
+    .img-home{
+        width: 378px;
+        height: 350px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+      
+    }
+
+    .description{
+        font-size: 24px;
+        width: 542px;
+        height: 329px;
+
+    }
+
+    .class-title{
+        font-size: 24px;
+    }
+
+    .random{
+        margin-top: 30px;
+    }
+
+    footer{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .prhase{
+        width: 250px;
+        height: 43px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .favorite-message{
+        width: 552px;
+        height: 183px;
+        margin-left: 20px;
+    }
+
+    .message-random{
+        width: 552px;
+        height: 98px;
+        margin-left: 20px;
+
+    }
+
+
+
+  }
+
+
