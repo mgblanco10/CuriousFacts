@@ -26,6 +26,11 @@ header{
     margin-left: 20px;
     filter: drop-shadow(1.25em 0em 6.25em var(--white)); 
 }
+
+.img-desktop{
+    display: none;
+
+}
 main{
     display: flex;
     flex-direction: column;
