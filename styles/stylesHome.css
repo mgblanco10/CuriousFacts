@@ -12,18 +12,18 @@
 }
 body{
     background-color: var(--red);
-    width: 390px;
-    height: 844px;
+    width: 24.375rem;
+    height: 52.75rem;
 }
 header{
     display: flex;
     justify-content: center;
 }
 .img-home{
-    width: 253px;
-    height: 220px;
-    margin-top: 30px;
-    margin-left: 20px;
+    width: 15.813rem;
+    height: 13.75rem;
+    margin-top: 1.875rem;
+    margin-left: 1.25rem;
     filter: drop-shadow(1.25em 0em 6.25em var(--white)); 
 }
 
@@ -40,21 +40,21 @@ main{
 .description{
     color: var(--white);
     font-family: roboto;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
-    margin: 20px;
+    margin: 1.25rem;
     text-align: center;
 }
 .init-btn{
     color: var(--redTextButton);
-    width: 185px;
-    height: 73px;
-    border-radius: 30px;
-    font-size: 20px;
+    width: 11.563rem;
+    height: 4.563rem;
+    border-radius: 1.875rem;
+    font-size: 1.25rem;
     font-weight: bold;
     border: none;
-    margin-top: 50px;
-    box-shadow: 0px 11px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 3.125rem;
+    box-shadow: 0 0.688rem 0.25rem rgba(0, 0, 0, 0.25);
     transition: transform 0.25s ease;
     background-color: var(--grey);
 }
@@ -66,16 +66,16 @@ footer{
 .prhase{
     color: var(--white);
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: roboto;
     font-weight: bold;
-    width: 180px;
-    margin-top: 40px;
+    width: 11.25rem;
+    margin-top: 2.5rem;
 }
 
 b{
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 

@@ -1,28 +1,28 @@
 .img-anchor{
-    width: 56px;
-    height: 56px;
+    width: 3.5rem;
+    height: 3.5rem;
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 0.938rem;
+    right: 0.938rem;
 
 }
 .class-title{
     color: var(--white);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
     font-family: 'roboto';
 }
 .favorite-message{
     color: var(--redTextButton);
-    width: 270px;
-    height: 166px;
-    border-radius: 15px;
+    width: 16.875rem;
+    height: 10.375rem;
+    border-radius: 0.938rem;
     background-color: var(--grey);
     overflow: scroll;
-    padding: 20px;
+    padding: 1.25rem;
     list-style: none;
     font-family: 'roboto';
 }
@@ -33,11 +33,11 @@
     align-items: center;
 }
 .message-random{
-    width: 270px;
-    height: 63px;
-    border-radius: 15px;
+    width: 16.875rem;
+    height: 3.938rem;
+    border-radius: 0.938rem;
     background-color: var(--grey);
-    padding: 20px;
+    padding: 1.25rem;
     color: var(--redTextButton);
     font-weight: bold;
     font-family: 'roboto';
@@ -46,23 +46,23 @@
     flex-direction: row-reverse;
 }
 .remove{
-    width: 23px;
-    height: 23px;
-    padding-right: 10px;
+    width: 1.438rem;
+    height: 1.438rem;
+    padding-right: 0.625rem;
 }
 
 .press{
-    margin: 30px;
+    margin: 1.875rem;
 }
 
 li{
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
 }
 .favorite-star{
-    width: 30px;
-    height: 30px;
-    padding-right: 10px;
+    width: 1.875rem;
+    height: 1.875rem;
+    padding-right: 0.625rem;
 }
 
 
