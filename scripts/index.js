@@ -8,6 +8,7 @@ function getNewMessage() {
       currentMessage.textContent = data.text;
       currentMessage.dataset.message = data.text; 
 
+
       let starImage = document.createElement('img');
       starImage.src = '../img/animateStar.png';
       starImage.alt = 'Estrella que al presionar agrega a la lista de favoritos';
