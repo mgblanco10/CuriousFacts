@@ -68,11 +68,10 @@ footer{
     text-align: center;
     font-size: 1rem;
     font-family: roboto;
-    font-weight: bold;
-    width: 11.25rem;
-    margin-top: 2.5rem;
+    width: 15rem;
+    margin-top: 2.125rem;
+    margin-left: 1.250rem;
 }
-
 b{
     font-weight: bold;
     font-size: 1.375rem;

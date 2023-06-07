@@ -1,5 +1,4 @@
-@media only screen and (min-width: 62rem) {
-    
+@media only screen and (min-width: 62rem) { 
     body{
         width: 75rem;
         height:50rem;
@@ -36,12 +35,15 @@
     }
     .favorite-message{
         width: 33.75rem;
-        height: 18.75rem;
+        height: 18rem;
+        font-size: 1.25rem;
     }
     .message-random{
-        width: 33.75rem;
+        width: 32rem;
         height: 18.75rem;
         margin-bottom: 4.375rem;
+        margin-left: 3.250rem;
+        align-items: center;
     }
     .favorites{
         margin-bottom: 4.375rem;
@@ -66,9 +68,18 @@
     }
     .prhase{
         font-size: 1rem;
-        width: 20rem;
-        margin: 5.625rem -3.125rem 0 0;   
+        width: 25rem;
+        margin: 6.825rem -4rem 0 0;   
     }
+    .favorite-star{
+        width: 3.438rem;
+        height: 3.438rem;
+        margin-bottom: 1.125rem;
+    }
+    .class-title{
+        font-size: 1.75rem;
+    }
+ 
 
    }
 

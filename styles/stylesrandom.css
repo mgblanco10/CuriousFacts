@@ -2,9 +2,29 @@
     width: 3.5rem;
     height: 3.5rem;
     position: absolute;
-    top: 0.938rem;
-    right: 0.938rem;
+    top: 0.7rem;
+    right: 0.7rem;
+    animation-name: gelatin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
+@keyframes gelatin {
+    0%,
+    100% {
+      transform: scale(0.8);
+    }
+    25% {
+      transform: scale(0.6) rotate(-1deg);
+    }
+    50% {
+      transform: scale(0.8) rotate(2deg);
+    }
+    75% {
+      transform: scale(0.6) rotate(-1deg);
+    }
+  }
+
 .class-title{
     color: var(--white);
     font-size: 1.25rem;
@@ -33,11 +53,12 @@
 }
 .message-random{
     width: 16.875rem;
-    height: 3.938rem;
+    height: 6rem;
     border-radius: 0.938rem;
     background-color: var(--grey);
-    padding: 1.25rem;
+    padding: 0.8rem;
     color: var(--redTextButton);
+    font-size: 20px;
     font-weight: bold;
     font-family: 'roboto';
     overflow: scroll;

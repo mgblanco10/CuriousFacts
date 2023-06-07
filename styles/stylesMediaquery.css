@@ -11,9 +11,9 @@
         margin: 0.625rem;    
     }
     .img-home{
-        width: 23.625rem;
-        height: 21.875rem;
-        margin-top: 2.5rem;
+        width: 23rem;
+        height: 21rem;
+        margin-top: 2rem;
         margin-bottom: 0.625rem;    
     }
     .description{
@@ -44,8 +44,11 @@
     }
     .message-random{
         width: 34.5rem;
-        height: 6.125rem;
+        height: 5rem;
         margin-left: 1.25rem;
+        font-size: 1.825rem;
+        overflow: scroll;
+        font-size: 26px;
     }
     .curious-facts{
         display: flex;

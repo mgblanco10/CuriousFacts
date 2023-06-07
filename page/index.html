@@ -14,24 +14,21 @@
 <body>
     <header>
         <img class="img-home" src="../img/imgHome.png" alt="Imagen de Home donde está una rueda con un fondo gris">
-        <a href="../index.html"><img class="img-anchor" src="../img/home.png" alt="Imagen de una casa que es un ancor y dirige a la página inicial donde se encuentra el texto alternativo"></a>
+        <a href="../index.html"><img class="img-anchor" src="../img/imgHome2.png" alt="Imagen de una casa que es un ancor y dirige a la página inicial donde se encuentra el texto alternativo"></a>
         <img class="img-desktop" src="../img/imgDesktop.png" alt="Imagen de protocolo HTTP utilizada unicamente para versión desktop">
     </header>
     <main>
-        
-        <section class="favorites">
-            <h2 class="class-title">Curiosidades favoritas</h2>
-            
-                <ul class="favorite-message" id="message-list"></ul>
-            
-        </section>
         <section class="section">
             <h2 class="class-title random" >Curiosidades aleatorias</h2>
             <p class="message-random curious-facts" id="current-message">  </p>
             <button id="new-message-btn" class="init-btn press">PRESIONAR</button>
         </section>
-        
+        <section class="favorites">
+            <h2 class="class-title">Curiosidades favoritas</h2>
+                <ul class="favorite-message" id="message-list"></ul>
+        </section>
     </main>
-<script src="../scripts/index.js"></script>
+<script src="../scripts/functionGetNewMessage.js"></script>
+<script src="../scripts/functionAddFavorite.js"></script>
 </body>
 </html>
