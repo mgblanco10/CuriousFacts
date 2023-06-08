@@ -22,3 +22,5 @@ function addFavoriteMessage(event) {
     });
   }
 }
+
+module.exports={addFavoriteMessage}

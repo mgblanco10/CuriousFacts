@@ -1,0 +1,23 @@
+{
+  "name": "CuriousFacts",
+  "version": "1.0.0",
+  "description": "# Tabla de Contenidos",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgblanco10/CuriousFacts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgblanco10/CuriousFacts/issues"
+  },
+  "homepage": "https://github.com/mgblanco10/CuriousFacts#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
