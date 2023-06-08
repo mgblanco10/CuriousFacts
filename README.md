@@ -1,4 +1,5 @@
 # CuriousFacts
+Es un proyecto realizado para practicar llamadas HTTP, la idea fue crear una página web que llame a una API externa y nos devuelva hechos curiosos en inglés de manera aleatoria. 
 
 # Tabla de Contenidos
 
@@ -31,9 +32,12 @@ A continuación se detallan los pasos para la instalación:
 
 git clone https://github.com/mgblanco10/CuriousFacts
 
-Test con jest:
-npm init
-npm run test
+### No es necesacio instalar nada para ver esta aplicación, sin embargo se realizarón test y para verlos si requiere instalación, los mismos fueron realizados con Jest 
+
+#### Para instalar y ver los test:
+- npm init -y
+#### Para correr los test:
+- npm run test
 
 ___
 ## HTTP POSTMAN
@@ -45,7 +49,7 @@ https://web.postman.co/workspace/My-Workspace~69268119-482c-4f67-8de9-586d299763
 
 # Funcionalidades del proyecto
  - `Funcionalidad 1`: Empezar e información de como funciona. 
- - `Funcionalidad 2`: Llamar a la api y para optener un hecho curioso.
+ - `Funcionalidad 2`: Llamar a la api para optener un hecho curioso.
  - `Funcionalidad 2a`: Mostrar el hecho curioso llamado y dejar de mostrar el hecho curioso cuando se llame a uno nuevo.
  - `Funcionalidad 3`: Tener la funcionalidad de agregar un hecho curioso a una lista de favoritos.
  - `Funcionalidad 4`: Poder eliminar el hecho curioso de la lista de favoritos.
