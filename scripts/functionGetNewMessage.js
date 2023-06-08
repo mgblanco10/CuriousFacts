@@ -1,5 +1,6 @@
 function getNewMessage() {
-  fetch('https://uselessfacts.jsph.pl/random.json?language=en')
+  const apiUrl = window.config.apiUrl;
+  fetch(apiUrl)
     .then(response => response.json())
     .then(data => {
       let currentMessage = document.getElementById('current-message');
@@ -18,7 +19,6 @@ function getNewMessage() {
       }
 
       currentMessage.appendChild(starImage);
-      
       starImage.addEventListener('click', addFavoriteMessage);
     })
     .catch(error => {

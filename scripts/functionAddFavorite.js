@@ -4,6 +4,12 @@ function addFavoriteMessage(event) {
   let message = event.target.parentNode.dataset.message;
   if (message) {
     let favoriteMessageListElement = document.getElementById('message-list');
+
+    if (favoriteMessageList.includes(message)) {
+      alert('El mensaje ya existe');
+      return; 
+    }
+
     let li = document.createElement('li');
 
     let image = document.createElement('img');
@@ -16,14 +22,14 @@ function addFavoriteMessage(event) {
     li.appendChild(document.createTextNode(message));
 
     favoriteMessageListElement.appendChild(li);
+    favoriteMessageList.push(message);
 
     image.addEventListener('click', function() {
       li.remove();
+      favoriteMessageList = favoriteMessageList.filter(item => item !== message);
     });
-    console.log('favoriteMessageListElement:', favoriteMessageListElement);
-    console.log('li:', li);
   }
 }
 
-
 module.exports = { addFavoriteMessage };
+
