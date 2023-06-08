@@ -13,14 +13,17 @@ function addFavoriteMessage(event) {
     image.style.verticalAlign = 'middle';
 
     li.appendChild(image);
-    li.insertAdjacentText('beforeend', message);
+    li.appendChild(document.createTextNode(message));
 
     favoriteMessageListElement.appendChild(li);
 
     image.addEventListener('click', function() {
       li.remove();
     });
+    console.log('favoriteMessageListElement:', favoriteMessageListElement);
+    console.log('li:', li);
   }
 }
 
-module.exports={addFavoriteMessage}
+
+module.exports = { addFavoriteMessage };
