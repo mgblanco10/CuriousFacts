@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mgblanco10/CuriousFacts#readme",
   "devDependencies": {
-    "jest": "^29.5.0"
+    "jest": "^29.5.0",
+    "jsdom": "^22.1.0"
   }
 }
