@@ -61,14 +61,14 @@
     #message-container{
         top: 55%;
         text-align: center;
-        width: 480px;
-        height: 170px;
-        font-size: 26px;
+        width: 30rem;
+        height: 10.625rem;
+        font-size: 1.625rem;
     }
     #message-container button {
-        margin-top: 17px;
-        height: 50px;
-        width: 160px;
+        margin-top: 1.063rem;
+        height: 3.125rem;
+        width: 10rem;
     }
   }
 

@@ -84,9 +84,9 @@
     #message-container{
         top: 57%;
         text-align: center;
-        width: 600px;
-        height: 210px;
-        font-size: 32px;
+        width: 37.5rem;
+        height: 13.125rem;
+        font-size: 2rem;
     }
 }
 
