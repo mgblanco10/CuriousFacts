@@ -81,5 +81,12 @@
     .class-title{
         font-size: 1.75rem;
     }
+    #message-container{
+        top: 57%;
+        text-align: center;
+        width: 600px;
+        height: 210px;
+        font-size: 32px;
+    }
 }
 

@@ -84,10 +84,11 @@ li{
 }
 #message-container {
   width: 260px;
-  height: 150px;
+  height: 170px;
   position: fixed;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
+  line-height: 1.4;
   text-align: center;
   font-family: roboto;
   top: 50%;
@@ -96,33 +97,26 @@ li{
   background-color: var(--grey);
   color: var(--white);
   padding: 30px;
-  border: 4px solid var(--redTextButton);
-  border-radius: 10px;
+  border: 5px solid var(--redTextButton);
+  border-radius: 30px;
   z-index: 9999;
   box-shadow: 0 0.688rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 
 #message-container button {
-  background-color: var(--redTextButton);
+  background-color: var(--red);
   color: white;
   padding: 3px 8px;
-  border: none;
-  font-size: 1.25rem;
-  font-weight: bold;
+  border: 3px solid var(--redTextButton);
+  font-size: 18px;
+  font-family: roboto;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 24px;
-  height: 38px;
+  height: 44px;
+  width: 145px;
 }
 
-/* color: var(--redTextButton);
-width: 11.563rem;
-height: 4.563rem;
-border-radius: 1.875rem;
-font-size: 1.25rem;
-font-weight: bold;
-border: none;
-margin-top: 3.125rem; */
 
 
 
