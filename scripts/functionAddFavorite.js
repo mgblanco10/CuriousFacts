@@ -6,8 +6,18 @@ function addFavoriteMessage(event) {
     let favoriteMessageListElement = document.getElementById('message-list');
 
     if (favoriteMessageList.includes(message)) {
-      alert('El mensaje ya existe');
-      return; 
+      let messageContainer = document.getElementById('message-container');
+      let messageText = document.getElementById('message-text');
+      let closeButton = document.getElementById('close-button');
+
+      messageText.textContent = 'Este mensaje ya existe en tu lista de favoritos, presiona aceptar para continuar descubriendo mensajes';
+      messageContainer.style.display = 'block';
+
+      closeButton.addEventListener('click', function() {
+        messageContainer.style.display = 'none';
+      });
+
+      return;
     }
 
     let li = document.createElement('li');
