@@ -28,6 +28,4 @@ function getNewMessage() {
 }
 
 
-document.getElementById('new-message-btn').addEventListener('click', getNewMessage);
-
-// module.exports={getNewMessage}
+module.exports={getNewMessage}
