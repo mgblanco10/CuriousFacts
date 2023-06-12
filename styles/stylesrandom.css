@@ -83,8 +83,8 @@ li{
     padding-right: 0.625rem;
 }
 #message-container {
-  width: 10.25rem;
-  height: 10.625rem;
+  width: 16.25rem;
+  height: 11rem;
   position: fixed;
   font-size: 1.25rem;
   font-weight: bold;
@@ -106,14 +106,14 @@ li{
 #message-container button {
   background-color: var(--red);
   color: white;
-  padding: 2.375rem 0.5rem;
-  border: 2.375rem solid var(--redTextButton);
+  border: 3px solid var(--redTextButton);
   font-size: 1.125rem;
   font-family: roboto;
+  font-weight: bold;
   border-radius: 0.313rem;
   cursor: pointer;
   margin-top: 1.5rem;
-  height: 2.75rem;
+  height: 3rem;
   width: 9.063rem;
 }
 
