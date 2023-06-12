@@ -44,6 +44,7 @@ main{
     font-weight: 400;
     margin: 1.25rem;
     text-align: center;
+    text-shadow: 0.063rem 0.063rem 0.125rem var(--red);
 }
 .init-btn{
     color: var(--redTextButton);

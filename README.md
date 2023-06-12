@@ -38,6 +38,7 @@ git clone https://github.com/mgblanco10/CuriousFacts
 - npm init -y
 #### Para correr los test:
 - npm run test
+- npm test -- --coverage
 
 ___
 ## HTTP POSTMAN
@@ -92,7 +93,7 @@ También nos permite eliminar de la lista el hecho curioso cuando así lo queram
 [Enlace al diseño Versión Desktop en Figma de la página con las funcionalidades](/img/desktopCuriousFact.png)
 
 # Test
-
+ ![test coverage](/img//testCoverage.png)
 
 
 
