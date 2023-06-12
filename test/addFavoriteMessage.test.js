@@ -151,6 +151,47 @@ describe('function addFavoriteMessage', () => {
     
       expect(updatedListItem).toBeNull();
     });
+
+    test('Show error message for duplicate favorite message', () => {
+      const dom = new JSDOM('<html><body><div id="message-list"></div><div id="message-container" style="display: none;"><p id="message-text"></p><button id="close-button"></button></div></body></html>', {
+        url: 'http://localhost'
+      });
+      global.document = dom.window.document;
+    
+      const favoriteList = document.getElementById('message-list');
+      const messageContainer = document.getElementById('message-container');
+      const messageText = document.getElementById('message-text');
+      const closeButton = document.getElementById('close-button');
+    
+      const parentElement1 = document.createElement('div');
+      const targetElement1 = document.createElement('span');
+      parentElement1.appendChild(targetElement1);
+      targetElement1.parentNode.setAttribute('data-message', 'Duplicate message');
+    
+      const event1 = {
+        target: targetElement1
+      };
+    
+      addFavoriteMessage(event1);
+    
+      const parentElement2 = document.createElement('div');
+      const targetElement2 = document.createElement('span');
+      parentElement2.appendChild(targetElement2);
+      targetElement2.parentNode.setAttribute('data-message', 'Duplicate message');
+    
+      const event2 = {
+        target: targetElement2
+      };
+    
+      addFavoriteMessage(event2);
+    
+      expect(messageText.textContent).toBe('Este mensaje ya existe en tu lista de favoritos, presiona aceptar para continuar descubriendo mensajes');
+      expect(messageContainer.style.display).toBe('block');
+    
+      closeButton.dispatchEvent(new dom.window.MouseEvent('click'));
+    
+      expect(messageContainer.style.display).toBe('none');
+    });
 });
 
 
